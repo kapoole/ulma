@@ -1,0 +1,57 @@
+body {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+header {
+    
+    background-color: white;
+    width: 100%;
+}
+
+.navbar {
+    float: right;
+    position: relative;
+    left: -50%; 
+    text-align: left;
+}
+
+.navbarItem {
+    position: relative;
+    left: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:10px 0;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 6px;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: blue;
+    padding: 20px;
+}
+
+ul a:hover {
+    background-color: #4287f5;
+}
+
+main {
+    margin-top: 150px;
+}
+
+ol {
+    list-style-position: inside;
+}
